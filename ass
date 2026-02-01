@@ -1,0 +1,17 @@
+Agent Development Kit (ADK) – Full Notes
+Agent Development Kit (ADK) is Google’s framework for building intelligent AI agents that can reason, remember
+context, and take real-world actions using Large Language Models (LLMs).
+Why ADK?
+Unlike traditional chatbots, ADK agents are autonomous systems capable of planning tasks, calling tools, handling
+memory, and interacting with external services securely.
+ADK High-Level Architecture
+User
+ADK Agent
+LLM (Reasoning Engine)
+Planner
+Tools / APIs (DB, Web, Email)
+Core Components of ADK- Agent: Controls interaction, reasoning, and execution flow.- LLM: Performs natural language understanding and reasoning.- Planner: Breaks complex goals into executable steps.- Tools: APIs and services used to perform actions.- Memory: Stores short-term and long-term context.
+Real-World Use Cases- Healthcare bots for appointments and symptom analysis- E-commerce assistants for product and order handling- HR automation for payroll and leave management- IVR and voice automation systems
+Important Interview Questions- What is ADK and how does it work?- How is an AI agent different from a chatbot?- What is tool calling in ADK?- Explain multi-agent systems.
+Summary: ADK enables enterprise-grade AI agents that can reason, remember, and act autonomously by
+combining LLMs, tools, and memory
